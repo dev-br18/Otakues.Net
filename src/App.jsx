@@ -45,7 +45,7 @@ import Grandblue from './assets2/GrandblueWallpaper.jpg'
 import FLCL from './assets2/FLCLWallpaper.jpg'
 import Kimi from './assets/KimiWallpaper.png'
 import Sobre from "./pages/Sobre/sobre";
-import nikoi from './assets/nikoiWallpaper.jpg'
+
 
 
 function App() {
