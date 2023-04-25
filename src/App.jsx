@@ -21,7 +21,7 @@ import Register from "./pages/login e register/register";
 import Categorias from "./pages/categorias/categorias";
 import bokura from './assets/BokuraWallpaper.jpg'
 import okami from './assets/OokamisanWallpaper.jpg'
-import nisekoi from './assets/nisekoiWallpaper.jpg'
+
 import relife from './assets/ReLIFEWallpaper.jpg'
 import SchoolRumble from './assets/SchoolRumbleWallpaper.jpg'
 import clannad from './assets/ClannadWallpaper.jpg'
@@ -87,7 +87,7 @@ function App() {
 
         <Route path="/ookami-san" element={<Filmes linkAnime='https://embed.warezcdn.net/serie/tt1685410' sinopse='Akai Ringo é uma garota baixinha do primeiro ano do colégio que parece fofinha, com uma aparência angelical, más um comportamento obscuro (seu nome é um jogo de palavras japonêsas com "maçã" e "chapéuzinho vermelho"). Juntas com os seus estranhos amigos, as duas lutam para mudar o mundo, uma questão de cada vez.' imgAnime={okami}/>}/>
 
-        <Route path="/nisekoi" element={<Filmes linkAnime='https://embed.warezcdn.net/serie/tt3115338' sinopse='Nisekoi conta a história do estudante do ensino médio, Raku Ichijou, filho de um líder da facção yakuza Shuei-Gumi, e Chitoge Kirisaki, a filha de um chefe de uma gangue rival conhecida como Colmeia. Eles inesperadamente se encontram quando Chitoge pula de um muro e dá uma joelhada no rosto de Raku.' imgAnime={nisekoi}/>}/>
+        <Route path="/nisekoi" element={<Filmes linkAnime='https://embed.warezcdn.net/serie/tt3115338' sinopse='Nisekoi conta a história do estudante do ensino médio, Raku Ichijou, filho de um líder da facção yakuza Shuei-Gumi, e Chitoge Kirisaki, a filha de um chefe de uma gangue rival conhecida como Colmeia. Eles inesperadamente se encontram quando Chitoge pula de um muro e dá uma joelhada no rosto de Raku.'/>}/>
 
         <Route path="/relife" element={<Filmes linkAnime='https://embed.warezcdn.net/serie/tt5857720' sinopse='A série conta a história de Arata Kaizaki, um homem de 27 anos, que permanece desempregado após abandonar seu último emprego depois de apenas 3 meses de trabalho, alegando que ele "não exige seu potencial máximo".' imgAnime={relife}/>}/>
 
