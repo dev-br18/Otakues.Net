@@ -1,0 +1,200 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container3{
+    background-color: #101010;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    position: relative;
+    width: 620px;
+    height: 495px;
+    background: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+
+    
+}
+
+
+.box::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 520px;
+    height: 445px;
+    background: linear-gradient(0deg,transparent,red,red,red);
+    box-shadow: 5px 5px 15px black;
+    transform-origin: bottom right;
+    animation: animated 6s linear infinite;
+
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 520px;
+    height: 445px;
+    background: linear-gradient(0deg,transparent,red,red,red);
+    z-index: -1;
+    transform-origin: bottom right;
+    animation: animated 6s linear infinite;
+    animation-delay: -20s;
+
+}
+
+
+.box1::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 520px;
+    height: 445px;
+    background: linear-gradient(0deg,transparent,red,red,red);
+    box-shadow: 5px 5px 15px black;
+    transform-origin: bottom right;
+    animation: animated 6s linear infinite;
+
+}
+
+.box1::after{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 520px;
+    height: 445px;
+    background: linear-gradient(0deg,transparent,red,red,red);
+    z-index: -1;
+    transform-origin: bottom right;
+    animation: animated 6s linear infinite;
+    animation-delay: -30s;
+
+}
+
+
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+@keyframes animated{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.card1{
+    inset: 10px;
+    position: absolute;
+    background-color: #161919;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    z-index: 0px;
+    
+    
+}
+
+.card2{
+    inset: 10px;
+    position: absolute;
+    background-color: #161919;
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    z-index: 0px;
+
+    
+    
+}
+
+.box1{
+    position: relative;
+    width: 720px;
+    height: 595px;
+    background: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+
+.cabecalhoLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border-radius: 10px;
+    padding:10px 20px;
+    font-size: 1.5rem;
+}
+
+.itens{
+    margin-top: 30px;
+}
+.centraliza{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media(max-width: 450px) {
+    .card1{
+        width: 300px;
+    }
+}
+
+@media(max-width: 450px) {
+    .card1{
+        width: 300px;
+    }
+
+        .box{
+            width: 310px;
+        }
+
+}
+
+  
+

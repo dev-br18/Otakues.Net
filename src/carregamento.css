@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.title{
+    font-size: 100px;
+}
+
+.img{
+    width: 300px;
+}
+
+.loading {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #c11313;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    background-color: #101010;
+    min-height: 100vh;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

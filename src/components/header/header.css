@@ -1,0 +1,76 @@
+
+.logo{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.titleLogo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.cabecalho{
+    display: flex;
+    background-color: #101010;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.perfil{
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.botao{
+    width: 100px;
+    height: 30px;
+}
+
+.cabecalho::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, red, black, rgb(0, 255, 136), rgb(0, 238, 255), blue, indigo, violet);
+    background-size: 200% 100%;
+    animation: gradient 1s ease infinite;
+    z-index: 1;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+
+
+  @media(max-width: 630px) {
+    .cabecalho{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .perfil{
+      padding: 10px;
+    }
+}
+
+
+@media(max-width: 330px) {
+  .cabecalho{
+      font-size: 13px;
+  }
+  .perfil{
+    flex-direction: column;
+  }
+}

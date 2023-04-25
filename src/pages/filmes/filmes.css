@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecalhoFilmes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #161919;
+    position: relative;
+    box-shadow: 4px 4px 10px black;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.cabecalhoFilmes::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, red, black, rgb(0, 255, 136), rgb(0, 238, 255), blue, indigo, violet);
+    background-size: 200% 100%;
+    animation: gradient 1s ease infinite;
+    z-index: 1;
+}
+
+.footerFilmes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161919;
+    position: relative;
+    box-shadow: 4px 4px 10px black;
+}
+
+.footerFilmes::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, red, black, rgb(0, 255, 136), rgb(0, 238, 255), blue, indigo, violet);
+    background-size: 200% 100%;
+    animation: gradient 1s ease infinite;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.mainFilmes {
+    min-height: 100vh;
+    background-color: #101010;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+.titlePrincipal {
+    color: white;
+    margin: 0 auto;
+    font-size: 3rem;
+    border-bottom: 3px solid red;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.filmesConteudo {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.paragraph {
+    color: white;
+    font-size: 1.0rem;
+    text-align: center;
+    width: 50vh;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.imagemFilme {
+    width: 100%;
+    height: 50vh;
+    filter: brightness(0.2);
+}
+
+.video {
+
+    margin-top: 3rem;
+    width: 100vh;
+    height: 50vh;
+    border: 3px solid red;
+}
+
+
+@media(max-width: 1200px) {
+    .video {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+@media(max-width: 630px) {
+    .video {
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .paragraph {
+        width: 10vh;
+    }
+
+    .titlePrincipal {
+        width: 100%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 0%;
+    }
+}
