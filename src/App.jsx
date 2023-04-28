@@ -41,7 +41,7 @@ import barakamon from '/assets2/BarakamonWallpaper.jpg'
 import Spacedandy from '/assets2/SpacedandyWallpaper.jpg'
 import Nichijou from '/assets2/NichijouWallpaper.jpg'
 import GoldenBoy from '/assets2/GoldenBoyWallpaper.jpg'
-import Grandblue from '/assets2/GrandblueWallpaper.jpg'
+import Grandblue from '/assets2/GrandBlueWallpaper.jpg'
 import FLCL from '/assets2/FLCLWallpaper.jpg'
 import Kimi from '/assets/KimiWallpaper.png'
 import Sobre from "./pages/Sobre/sobre";
