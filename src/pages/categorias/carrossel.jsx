@@ -3,7 +3,7 @@ import { Fragment,useEffect,useState,useRef } from 'react';
 import './categorias.css'
 import Post from '../../components/post/post';
 import {motion} from 'framer-motion'
-import img from '../../assets/Baki.jpg'
+import img from '/assets/Baki.jpg'
 function MovieCarousel(props){
      
     const carosel = useRef();

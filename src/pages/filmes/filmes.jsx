@@ -1,6 +1,6 @@
 import './filmes.css'
 import { Fragment } from 'react';
-import logo from '../../assets/player verde.png'
+import logo from '/assets/player verde.png'
 
 import BotaoPlayer from '../../components/button/buttonPlayer';
 function Filmes(props){

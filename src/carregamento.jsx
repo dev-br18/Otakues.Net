@@ -1,5 +1,5 @@
 import './carregamento.css'
-import img from  './assets/player branco.png'
+import img from  '/assets/player branco.png'
 import React, { Fragment, useEffect ,useState} from 'react';
 import { useNavigate} from 'react-router-dom';
 

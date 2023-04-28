@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import './login.css'
 import Botao from '../../components/button/button';
 import Cabecalho from '../../components/header/header';
-import logo from '../../assets/player verde.png'
+import logo from '/assets/player verde.png'
 import BotaoPlayer from '../../components/button/buttonPlayer';
 
 function Login(){

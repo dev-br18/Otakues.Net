@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import './login.css'
-import logo from '../../assets/player verde.png'
+import logo from '/assets/player verde.png'
 import BotaoPlayer from '../../components/button/buttonPlayer';
 
 function Register(){
