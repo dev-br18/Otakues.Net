@@ -67,6 +67,34 @@ iframe{
     }
 }
 
+
+@media(max-width: 1040px) {
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+}
+
+@media(max-width: 740px) {
+    .cabecalho{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 .footerFilmes {
 
     display: flex;
@@ -89,3 +117,5 @@ iframe{
     animation: gradient 1s ease infinite;
     z-index: 1;
 }
+
+

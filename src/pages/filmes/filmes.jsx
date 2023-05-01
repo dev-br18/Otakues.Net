@@ -6,9 +6,9 @@ import BotaoPlayer from '../../components/button/buttonPlayer';
 function Filmes(props){
     return(
         <Fragment>
-            <header className='cabecalhoFilmes'>
+            <header className='cabecalho'>
                 <img className='logo' src={logo} alt="" />
-                <div className='buttons'>
+                <div className='perfil'>
                     <BotaoPlayer endereco='/inicio' txt='Inicio'/>
                     <BotaoPlayer endereco='/categorias' txt='Categorias'/>
                 </div>

@@ -13,7 +13,7 @@ function Cabecalho(props){
             <h1 className='titleLogo'>OTAKUS.NET</h1>
             <div className='perfil'>
                 
-                
+                <a href="https://otakutalkbr.online/chat"><BotaoPlayer txt='Chat'/></a>
                 <BotaoPlayer endereco='/Sobre' txt='Sobre'/>
                 <BotaoPlayer endereco='/categorias' txt='Categorias'/>
             </div>
